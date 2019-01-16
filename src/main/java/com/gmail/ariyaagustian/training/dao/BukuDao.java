@@ -3,9 +3,16 @@ package com.gmail.ariyaagustian.training.dao;
 import com.gmail.ariyaagustian.training.entity.Buku;
 import org.hibernate.Session;
 
+import java.util.List;
+
 public class BukuDao {
 
     private final Session session;
+
+
+    public List<Buku> findAll(){
+        return this.session.createQuery("from Buku").getResultList();
+    }
 
     public BukuDao(Session session) {
         this.session = session;
