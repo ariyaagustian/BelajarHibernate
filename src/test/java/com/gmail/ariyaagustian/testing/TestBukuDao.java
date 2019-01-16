@@ -11,6 +11,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.junit.Test;
 
+import java.sql.Timestamp;
+import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
 
@@ -38,7 +40,7 @@ public class TestBukuDao extends TestCase {
 
 
         kategoryDao.save(Arrays.asList(it, matematika));
-        kategoryDao.save(matematika);
+//        kategoryDao.save(matematika);
 
         List<KategoriBuku> listKategoryBuku = kategoryDao.findAll();
 
@@ -81,6 +83,37 @@ public class TestBukuDao extends TestCase {
                 "Rega");
 
         session.getTransaction().commit();
+
+
+
+        session.beginTransaction();
+
+        daftarBuku = dao.findAll();
+        log.info("Buku findAll(): {}", daftarBuku);
+        daftarBuku = dao.findByName("kom");
+        log.info("Buku findByName(): {}", daftarBuku);
+        daftarBuku = dao.findByKategoryBuku(it.getId());
+        log.info("Buku findByKategoriId(): {}", daftarBuku);
+
+        List<KategoriBuku> daftarKategori = kategoryDao.findAll();
+        log.info("Kategori findAll(): {}", daftarKategori);
+        daftarKategori = kategoryDao.findByName("kom");
+        log.info("Kategori findByName(): {}", daftarKategori);
+        daftarKategori = kategoryDao.findByNameAndDescription("kom", "asdf");
+        log.info("Kategori findByName(): {}", daftarKategori);
+        daftarKategori = kategoryDao.findBetweenByCreatedDate(
+                Timestamp.valueOf(
+                        LocalDateTime.of(2018, 12, 1, 0, 0, 0)
+                ),
+                Timestamp.valueOf(
+                        LocalDateTime.now().plusDays(2)
+                )
+        );
+        log.info("Kategori findBetweenDate(): {}", daftarKategori);
+
+        session.getTransaction().commit();
+
+
         session.close();
     }
 }
