@@ -1,6 +1,6 @@
 # BelajarHibernate
 
-```
+``` mysql
 -- create user
 create user bootcamp_2019 identified by bootcamp;
 
