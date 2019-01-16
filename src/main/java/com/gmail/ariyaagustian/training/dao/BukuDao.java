@@ -9,7 +9,6 @@ public class BukuDao {
 
     private final Session session;
 
-
     public List<Buku> findAll(){
         return this.session.createQuery("from Buku").getResultList();
     }
@@ -38,4 +37,5 @@ public class BukuDao {
         Buku buku = findById(id);
         this.session.delete(buku);
     }
+
 }

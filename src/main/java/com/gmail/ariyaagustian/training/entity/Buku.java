@@ -4,21 +4,22 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 import lombok.Data;
+import lombok.ToString;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
+@Data
+@ToString(exclude = {"list"})
 @Entity
 @Table(name = "master_buku")
-@Data
 public class Buku {
 
-    public Buku() {
-    }
-
-    public Buku(String isbn, String judul, String namaPengarang, Integer tahunTerbit, String namaPenerbit) {
+    public Buku(String isbn, String judul, String namaPengarang, Integer tahunTerbit, String namaPenerbit, List<KategoriBuku> listKategory, KategoriBuku kategory) {
         this.isbn = isbn;
         this.judul = judul;
         this.namaPengarang = namaPengarang;
@@ -26,8 +27,12 @@ public class Buku {
         this.namaPenerbit = namaPenerbit;
         this.createdDate = Timestamp.valueOf(LocalDateTime.now());
         this.createdBy = "admin";
+        this.kategoryBuku = kategory;
+        this.setList(listKategory);
     }
 
+    public Buku() {
+    }
 
     @Id
     @GenericGenerator(name = "uuid_gen", strategy = "uuid2")
@@ -61,4 +66,20 @@ public class Buku {
 
     @Column(name = "last_update_by")
     private String lastUpdateBy;
+
+    @OneToOne
+    @JoinColumn(name = "kategori_id")
+    private KategoriBuku kategoryBuku;
+
+    @OneToMany
+    @JoinTable(
+            name = "daftar_kategory_buku",
+            joinColumns = @JoinColumn(
+                    name = "buku_id", nullable = false),
+            inverseJoinColumns = @JoinColumn(
+                    name = "kategori_id", nullable = false)
+    )
+    private List<KategoriBuku> list = new ArrayList<>();
+
+
 }
