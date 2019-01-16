@@ -2,14 +2,32 @@ package com.gmail.ariyaagustian.training.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+
+import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "master_buku")
+@Data
 public class Buku {
+
+    public Buku() {
+    }
+
+    public Buku(String isbn, String judul, String namaPengarang, Integer tahunTerbit, String namaPenerbit) {
+        this.isbn = isbn;
+        this.judul = judul;
+        this.namaPengarang = namaPengarang;
+        this.tahunTerbit = tahunTerbit;
+        this.namaPenerbit = namaPenerbit;
+        this.createdDate = Timestamp.valueOf(LocalDateTime.now());
+        this.createdBy = "admin";
+    }
+
 
     @Id
     @GenericGenerator(name = "uuid_gen", strategy = "uuid2")
