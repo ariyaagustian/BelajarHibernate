@@ -1,6 +1,6 @@
-package com.gmail.ariyaagustian.training.dao;
+package com.gmail.ariyaagustian.training.hibernate.dao;
 
-import com.gmail.ariyaagustian.training.entity.KategoriBuku;
+import com.gmail.ariyaagustian.training.hibernate.entity.KategoriBuku;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.MatchMode;

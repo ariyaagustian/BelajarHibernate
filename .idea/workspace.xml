@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7da59bd2-d6fb-47a4-9e13-bc882b9e4a45" name="Default Changelist" comment="Commit 2">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-ioc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProjectKelompokDua/README.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/BukuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/BukuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/KategoriBukuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/KategoriBukuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/hibernate/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/configuration/SessionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/hibernate/configuration/SessionFactoryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/BukuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/hibernate/dao/BukuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/KategoriBukuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/hibernate/dao/KategoriBukuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/entity/Buku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/hibernate/entity/Buku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/entity/KategoriBuku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/hibernate/entity/KategoriBuku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ariyaagustian/testing/TestBukuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ariyaagustian/testing/TestBukuDao.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,13 +57,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="bootcamp: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="bootcamp@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="bootcamp: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="hibernate_sequence: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -59,100 +66,96 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/entity/Buku.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/ariyaagustian/testing/TestBukuDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://2e2329dd-ed78-407d-b83d-b2d34068ddce/schema/bootcamp/table/master_buku">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/MainApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/BukuDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://2e2329dd-ed78-407d-b83d-b2d34068ddce/schema/bootcamp/table/hibernate_sequence">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="319">
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/KategoriBukuDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/MainApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-962">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#2776#2777#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/entity/KategoriBuku.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-ioc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/hibernate/MainApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/belajarhibernate.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -175,9 +178,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/file.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/configuration/SessionFactoryUtil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2e2329dd-ed78-407d-b83d-b2d34068ddce/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/entity/Buku.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/entity/KategoriBuku.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/MainApplication.java" />
@@ -186,6 +187,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/BukuDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/KategoriBukuDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/ariyaagustian/testing/TestBukuDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/bean/MainApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/MainApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanD.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-ioc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/MainApplication.java" />
       </list>
     </option>
   </component>
@@ -252,16 +263,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="training" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="belajarhibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="belajarhibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="belajarhibernate" type="b2602c69:ProjectViewProjectNode" />
@@ -269,27 +271,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="belajarhibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="belajarhibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="belajarhibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="belajarhibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="belajarhibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="belajarhibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,7 +286,13 @@
             <path>
               <item name="belajarhibernate" type="58d84e3e:PackageViewProjectNode" />
               <item name="belajarhibernate" type="616d4139:PackageViewModuleNode" />
-              <item name="com.gmail.ariyaagustian.training" type="1f31426a:PackageElementNode" />
+              <item name="com.gmail.ariyaagustian" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="belajarhibernate" type="58d84e3e:PackageViewProjectNode" />
+              <item name="belajarhibernate" type="616d4139:PackageViewModuleNode" />
+              <item name="com.gmail.ariyaagustian" type="1f31426a:PackageElementNode" />
+              <item name="training" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -315,10 +302,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547633080761" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547694745692" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -340,13 +328,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBukuDao.testBukuDao">
+  <component name="RunManager" selected="Application.MainApplication (1)">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.ariyaagustian.training.MainApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.ariyaagustian.training.hibernate.MainApplication" />
       <module name="belajarhibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.ariyaagustian.training.*" />
+          <option name="PATTERN" value="com.gmail.ariyaagustian.training.hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.ariyaagustian.training.spring.MainApplication" />
+      <module name="belajarhibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.ariyaagustian.training.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,12 +416,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainApplication" />
-      <item itemvalue="Maven.belajar-hibernate [clean,package...]" />
       <item itemvalue="JUnit.TestBukuDao.testBukuDao" />
       <item itemvalue="JUnit.TestBukuDao" />
+      <item itemvalue="Maven.belajar-hibernate [clean,package...]" />
+      <item itemvalue="Application.MainApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApplication (1)" />
         <item itemvalue="JUnit.TestBukuDao.testBukuDao" />
         <item itemvalue="JUnit.TestBukuDao" />
         <item itemvalue="Application.MainApplication" />
@@ -438,7 +441,8 @@
       <option name="presentableId" value="Default" />
       <updated>1547605374644</updated>
       <workItem from="1547605379417" duration="14893000" />
-      <workItem from="1547621452260" duration="10879000" />
+      <workItem from="1547621452260" duration="10951000" />
+      <workItem from="1547689861500" duration="3860000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 2">
       <created>1547607226496</created>
@@ -517,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547629977433</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Commit 2">
+      <created>1547633110060</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547633110061</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -545,9 +556,15 @@
     <history-entry file="TestBukuDao_testBukuDao - 2019.01.16 at 16h 04m 56s.xml">
       <configuration name="TestBukuDao.testBukuDao" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestBukuDao_testBukuDao - 2019.01.17 at 08h 54m 04s.xml">
+      <configuration name="TestBukuDao.testBukuDao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBukuDao_testBukuDao - 2019.01.17 at 08h 54m 46s.xml">
+      <configuration name="TestBukuDao.testBukuDao" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25772000" />
+    <option name="totallyTimeSpent" value="29704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -560,19 +577,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.19515885" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4939759" visible="true" weight="0.19818456" />
       <window_info id="Java Enterprise" order="1" sideWeight="0.5024233" side_tool="true" weight="0.19515885" />
       <window_info id="Structure" order="2" sideWeight="0.5024233" side_tool="true" weight="0.19515885" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" id="Persistence" order="4" sideWeight="0.5024233" side_tool="true" visible="true" weight="0.19515885" />
+      <window_info id="Persistence" order="4" sideWeight="0.5060241" side_tool="true" weight="0.19818456" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" sideWeight="0.5024233" side_tool="true" weight="0.19515885" />
       <window_info id="Image Layers" order="8" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956383" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -683,9 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/belajarhibernate.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2e2329dd-ed78-407d-b83d-b2d34068ddce/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -703,44 +719,24 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="97.5" y="125.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="98.0" y="125.0" />
           <SelectedNodes />
           <Categories>
             <Category>Properties</Category>
             <Category>Embeddables</Category>
             <Category>Superclasses</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/configuration/SessionFactoryUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/hibernate/configuration/SessionFactoryUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2e2329dd-ed78-407d-b83d-b2d34068ddce/schema/bootcamp/table/master_kategori_buku">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -761,50 +757,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/entity/KategoriBuku.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/TestDao.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.0.Final/hibernate-core-5.4.0.Final.jar!/org/hibernate/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1843">
+          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/hibernate/entity/Buku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/hibernate/dao/BukuDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2e2329dd-ed78-407d-b83d-b2d34068ddce/schema/bootcamp/table/master_buku">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/entity/Buku.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/TestDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -816,48 +792,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.0.Final/hibernate-core-5.4.0.Final.jar!/org/hibernate/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1843">
-          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+    <entry file="das://2e2329dd-ed78-407d-b83d-b2d34068ddce/schema/bootcamp/table/master_buku">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/BukuDao.java">
+    <entry file="das://2e2329dd-ed78-407d-b83d-b2d34068ddce/schema/bootcamp/table/master_kategori_buku">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/hibernate/dao/KategoriBukuDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="296">
+          <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#2712#2713#0" expanded="true" />
+            <element signature="e#2776#2777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/hibernate/entity/KategoriBuku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/ariyaagustian/testing/TestBukuDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+        <state relative-caret-position="818">
+          <caret line="102" column="41" selection-start-line="102" selection-start-column="41" selection-end-line="102" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/dao/KategoriBukuDao.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-962">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="319">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/hibernate/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#2776#2777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/belajarhibernate.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-ioc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/beans/BeanD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/ariyaagustian/training/spring/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

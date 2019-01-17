@@ -1,10 +1,10 @@
 package com.gmail.ariyaagustian.testing;
 
-import com.gmail.ariyaagustian.training.configuration.SessionFactoryUtil;
-import com.gmail.ariyaagustian.training.dao.BukuDao;
-import com.gmail.ariyaagustian.training.dao.KategoriBukuDao;
-import com.gmail.ariyaagustian.training.entity.Buku;
-import com.gmail.ariyaagustian.training.entity.KategoriBuku;
+import com.gmail.ariyaagustian.training.hibernate.configuration.SessionFactoryUtil;
+import com.gmail.ariyaagustian.training.hibernate.dao.BukuDao;
+import com.gmail.ariyaagustian.training.hibernate.dao.KategoriBukuDao;
+import com.gmail.ariyaagustian.training.hibernate.entity.Buku;
+import com.gmail.ariyaagustian.training.hibernate.entity.KategoriBuku;
 import junit.framework.TestCase;
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.Session;
@@ -100,7 +100,7 @@ public class TestBukuDao extends TestCase {
         daftarKategori = kategoryDao.findByName("kom");
         log.info("Kategori findByName(): {}", daftarKategori);
         daftarKategori = kategoryDao.findByNameAndDescription("kom", "asdf");
-        log.info("Kategori findByName(): {}", daftarKategori);
+        log.info("Kategori findByNameDesc(): {}", daftarKategori);
         daftarKategori = kategoryDao.findBetweenByCreatedDate(
                 Timestamp.valueOf(
                         LocalDateTime.of(2018, 12, 1, 0, 0, 0)

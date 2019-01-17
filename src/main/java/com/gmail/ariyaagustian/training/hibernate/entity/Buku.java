@@ -1,4 +1,4 @@
-package com.gmail.ariyaagustian.training.entity;
+package com.gmail.ariyaagustian.training.hibernate.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

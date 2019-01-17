@@ -1,4 +1,4 @@
-package com.gmail.ariyaagustian.training.configuration;
+package com.gmail.ariyaagustian.training.hibernate.configuration;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;

@@ -1,9 +1,6 @@
-package com.gmail.ariyaagustian.training;
+package com.gmail.ariyaagustian.training.hibernate;
 
-import com.gmail.ariyaagustian.training.configuration.SessionFactoryUtil;
-import com.gmail.ariyaagustian.training.dao.BukuDao;
-import com.gmail.ariyaagustian.training.entity.Buku;
-import org.hibernate.Session;
+import com.gmail.ariyaagustian.training.hibernate.configuration.SessionFactoryUtil;
 import org.hibernate.SessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

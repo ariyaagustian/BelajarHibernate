@@ -1,6 +1,6 @@
-package com.gmail.ariyaagustian.training.dao;
+package com.gmail.ariyaagustian.training.hibernate.dao;
 
-import com.gmail.ariyaagustian.training.entity.Buku;
+import com.gmail.ariyaagustian.training.hibernate.entity.Buku;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 
