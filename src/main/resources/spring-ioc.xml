@@ -8,16 +8,26 @@
     <bean id="ClassD" class="com.gmail.ariyaagustian.training.spring.beans.BeanD">
         <property name="nomor" value="25"></property>
     </bean>
+    <bean id="classD1" class="com.gmail.ariyaagustian.training.spring.beans.BeanD">
+        <property name="nomor" value="27"/>
+    </bean>
     <bean id="ClassC" class="com.gmail.ariyaagustian.training.spring.beans.BeanC">
-        <property name="namaLengkap" value="Ariya Agustian"></property>
+        <constructor-arg value="12" name="no"/>
+
+        <property name="nomor" value="10"/>
     </bean>
     <bean id="ClassB" class="com.gmail.ariyaagustian.training.spring.beans.BeanB">
-        <constructor-arg ref="ClassC" name="c"></constructor-arg>
-        <constructor-arg ref="ClassD" name="d"></constructor-arg>
+        <constructor-arg ref="ClassC" name="c"/>
+        <constructor-arg ref="classD1" name="d"/>
+
+        <property name="c" ref="ClassC"/>
     </bean>
     <bean id="ClassA" class="com.gmail.ariyaagustian.training.spring.beans.BeanA">
         <property name="b" ref="ClassB"></property>
     </bean>
 
+    <bean id="singletonApp" class="com.gmail.ariyaagustian.training.spring.beans.SingleTonApplication" scope="singleton"/>
+
+    <bean id="prototypeApp" class="com.gmail.ariyaagustian.training.spring.beans.PrototypeApplication" scope="prototype"/>
 
 </beans>
